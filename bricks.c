@@ -1,3 +1,8 @@
+/*This code might not compile as there are a few additions that
+ *are not complete
+ */
+
+
 #include<ncurses.h>
 int height=2;
 int width = 7;
