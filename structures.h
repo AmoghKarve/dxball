@@ -16,10 +16,6 @@ typedef struct coordinate{
 	int x,y;
 }coordinate; 
 
-typedef struct velocity{
-	int x,y;
-}velocity;
-
 typedef struct object{
 	coordinate r;
 	velocity v;
