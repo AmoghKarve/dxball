@@ -1,0 +1,22 @@
+Hello
+This is a classic brick breaker game
+
+Controls:
+
+LEFT_ARROW: Move the paddle to the left
+RIGHT_ARROW: Move the paddle to the right
+Initially adjust paddle position and hit
+  space bar to start.
+Power-ups appear on screen at different times.
+Catching power-up enables paddle to shoot bullets.
+UP_ARROW: To shoot bullets.
+
+Scoring: 
+
+Hitting each brick other than Green Brick gives 25.
+Yellow Brick vanishes on being hit.
+Blue Brick becomes Yellow on being hit.
+Ball cannot harm Green Brick.
+But, Bullet can pass through Green Brick.
+
+Designed and developed by: Amogh Karve
