@@ -25,6 +25,7 @@ The game end when either all the bricks disappear or you are unable to stop the 
 A power-up also timely fall down.
 Catching a power-up with the paddle enables you to shoot bullets from the paddle.
 Bullet work similar to balls.
+Bullets have a special feature that only they can go through the Green Bricks.
 Once you catch a power-up, more power-ups will stop falling down.
 
 
