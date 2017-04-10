@@ -21,8 +21,8 @@ typedef struct velocity{
 }velocity;
 
 typedef struct object{
-	coordinate r;
-	velocity v;
+	coordinate r,v;
+	//velocity v;
 }object;
 
 typedef struct score{
