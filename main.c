@@ -221,8 +221,8 @@ int main(){
 			PaddleShift = 7;
 			break;
 		case 4:
-			DELAY_NORMAL = 25000;
-			delay_normal = 25000;
+			DELAY_NORMAL = 22000;
+			delay_normal = 22000;
 			DELAY_BULLET = 10000;
 			delay_bullet = 10000;
 			BULLET = 20000;
