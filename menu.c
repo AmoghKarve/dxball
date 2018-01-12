@@ -67,7 +67,7 @@ int menu(WINDOW *orig){
 
 
 int levels(WINDOW *orig){
-	char list[3][50] = { "LEVEL 1", "LEVEL 2", "LEVEL 3"};
+	char list[4][50] = { "LEVEL 1", "LEVEL 2", "LEVEL 3","LEVEL 4"};
 	char item[50];
 	int ch, i = 0;
 	int check = 0;
@@ -77,7 +77,7 @@ int levels(WINDOW *orig){
 	WINDOW *level;
 	level = newwin(15, 25, (LINES - 15) / 2, (COLS - 25) / 2 ); 
 	box(level, 0, 0 ); 
-	for( i=0; i<3; i++) {
+	for( i=0; i< 4; i++) {
 		if( i == 0 ) 
 			wattron(level, A_STANDOUT ); 
 		else
@@ -95,14 +95,14 @@ int levels(WINDOW *orig){
         	switch(ch){
                 	case KEY_UP:
                			if(i == 0)
-             	      		   	i = 2;
+             	      		   	i = 3;
                     		else 
                         		i--;
                         	 
                 		break;
                             
                 	case KEY_DOWN:
-                		if(i == 2)
+                		if(i == 3)
                         		i = 0;   
                 		else
         	                	i++;
