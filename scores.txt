@@ -1,3 +1,2 @@
 temp 50
-bala 75
-bala 125
+vivek 25
